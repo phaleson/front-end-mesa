@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+div.bar-discount {
+  background: #d1891c;
+  padding: 10px;
+}
+
+div.bar-discount p {
+  color: #000000;
+  font-weight: bold;
+}
+
+header.super-herois {
+  background: #00669f;
+  padding: 20px;
+}
+
+header.super-herois h1 {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+section.conteiner-pai {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-self: center;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+section div.card {
+  position: relative;
+  width: 374px;
+  height: 600px;
+  border-radius: 30px;
+  background: #f3f3f3;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+p.description {
+  text-align: justify;
+  margin: 30px;
+  height: 140px;
+}
+
+button {
+  text-align: center;
+  justify-content: center;
+  width: 150px;
+  height: 55px;
+  background-color: #00669f;
+  padding: 15px;
+  color: #f3f3f3;
+  font-size: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button.circle-button {
+  position: fixed;
+  border-radius: 100%;
+  border: #000000;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  background: #00669f;
+  margin-left: 90vw;
+  margin-top: 40vh;
+}
+
+img.background {
+  width: 374px;
+  height: 217.81px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+img.hero {
+  border-radius: 100%;
+  position: absolute;
+  left: 130px;
+  top: 150px;
+  width: 135.43px;
+  height: 133.17px;
+}
+
+img.fav {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+33.3%;
+}
+
+footer p {
+  margin-left: 40%;
+}
+
+@media (min-width: 1280px) {
+  /* tablet */
+
+}
+
+@media (max-width: 435px) {
+  /* smartphone */
+
+
+
+}
